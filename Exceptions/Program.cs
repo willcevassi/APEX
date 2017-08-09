@@ -20,7 +20,7 @@ namespace Exceptions
                 Console.WriteLine("Resultado: " + resposta.ToString("N2"));
                 Console.Read();
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 throw new MinhaExcecao("Você tentou dividir por 0");
             }
